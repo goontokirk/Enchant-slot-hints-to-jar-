@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantslothints",
+  "version": "${version}",
+  "name": "Enchant Slot Hints",
+  "description": "Zeigt den Enchantment-Hinweis jedes Enchanting-Table-Felds direkt im Feld an - ohne Hovern und ohne Galactic-Schrift.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.enchantslothints.EnchantSlotHintsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
